@@ -1,22 +1,20 @@
-body{
-    background-color: darkmagenta;
+body {
+  background-color: darkmagenta;
 }
-#Rock:hover {
-transform: scale(1.5);
-transition: 0.5s;}
 
-#Paper:hover {
-    transform: scale(1.5);
-    transition: 0.5s;}
+.option-img {
+  max-width: 80px;
+  transition: transform 0.5s;
+}
 
-    #Scissors:hover {
-        transform: scale(1.5);
-        transition: 0.5s;}
+.option-img:hover {
+  transform: scale(1.5);
+}
 
-        #Lizard:hover {
-            transform: scale(1.5);
-            transition: 0.5s;}
+.select-img {
+  max-width: 100px;
+}
 
-            #Spock:hover {
-                transform: scale(1.5);
-                transition: 0.5s;}
+.vs-img {
+  max-width: 40px;
+}

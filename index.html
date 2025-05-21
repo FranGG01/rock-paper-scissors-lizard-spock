@@ -1,76 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rock Paper Scissors Lizard Spock</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="container">
-    
-    <div class="row ">
+  <div class="container">
 
-        <h1 id="Encabezado" class="text-center my-3 text-white" >ROCK  PAPER  SCISSORS  LIZARD  SPOCK</h1>
-   
-        <div id="Icono_Principal" class="d-flex justify-content-center ">
-            <img src=https://rat.in.ua/wp-content/uploads/2014/01/2077-The-Big-Bang-Theory-Rock-Paper-Scissors-Lizard-Spock-300x288.png class=" rounded img-fluid " alt="...">
-        </div>
-        
-    <div id="Opciones_Botones" class="d-flex justify-content-center">
-            
-        <div id="Rock" class="m-5 col-1">
-            <p class="text-white text-center">ROCK</p>
-            <img src=https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/piedra.png class="img-fluid rounded-circle" alt="..." type="button">
-        </div>  
+    <h1 id="Encabezado" class="text-center my-3 text-white">
+      ROCK PAPER SCISSORS LIZARD SPOCK
+    </h1>
 
-        <div id="Paper" class="m-5 col-1">
-            <p class="text-white text-center">PAPER</p>
-            <img src=https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/papel.png class="img-fluid rounded-circle" alt="...">
-        </div>  
-
-        <div id="Scissors" class="m-5 col-1">
-            <p class="text-white text-center">SCISSORS</p>
-            <img src=https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/tijeras.png class=" img-fluid rounded-circle" alt="...">
-        </div>  
-
-        <div id="Lizard" class="m-5 col-1">
-            <p class="text-white text-center">LIZARD</p>
-            <img src=https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/lagarto.png class=" img-fluid rounded-circle" alt="...">
-        </div>
-        
-        <div id="Spock" class="m-5 col-1">
-            <p class="text-white text-center">SPOCK</p>
-            <img src=https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/spock.png class=" img-fluid rounded-circle" alt="...">
-        </div>
-
+    <div id="Icono_Principal" class="d-flex justify-content-center mb-4">
+      <img
+        src="https://rat.in.ua/wp-content/uploads/2014/01/2077-The-Big-Bang-Theory-Rock-Paper-Scissors-Lizard-Spock-300x288.png"
+        class="rounded img-fluid"
+        alt="Icono Principal"
+      />
     </div>
 
-        <div id="Selecciones" class="d-flex justify-content-center ">
-            
-            <div id="Seleccion_Usuario" class="mt-2 mx-5">
-                <img src=https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/spock.png class=" img-fluid rounded-circle" alt="...">
-                <h2 class = "text-center mt-3 text-white">PLAYER</h2>
-            </div>
-            
-            <div class="mx-5">
-                <img src="https://cdn-icons-png.freepik.com/256/1191/1191131.png?semt=ais_hybrid" class="img-fluid" alt="">
-            </div>
+    <div id="Opciones_Botones" class="row justify-content-center text-center">
+      <div id="Rock" class="col-6 col-sm-4 col-md-2 my-3">
+        <p class="text-white">ROCK</p>
+        <img
+          src="https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/piedra.png"
+          class="img-fluid rounded-circle option-img"
+          alt="Rock"
+        />
+      </div>
 
-            <div id="Seleccion_Pc" class="mt-2 mx-5">
-                <img src=https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/spock.png class=" img-fluid rounded-circle" alt="...">
-                <h2 class = "text-center mt-3 text-white">CPU</h2>
-            </div>
+      <div id="Paper" class="col-6 col-sm-4 col-md-2 my-3">
+        <p class="text-white">PAPER</p>
+        <img
+          src="https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/papel.png"
+          class="img-fluid rounded-circle option-img"
+          alt="Paper"
+        />
+      </div>
 
-       </div>
+      <div id="Scissors" class="col-6 col-sm-4 col-md-2 my-3">
+        <p class="text-white">SCISSORS</p>
+        <img
+          src="https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/tijeras.png"
+          class="img-fluid rounded-circle option-img"
+          alt="Scissors"
+        />
+      </div>
 
-        <h1 id="Resultado" class="text-center mt-2 text-white">WIN</h1>
-   
-</div>    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <script type="module" src="/src/app.js"></script>
+      <div id="Lizard" class="col-6 col-sm-4 col-md-2 my-3">
+        <p class="text-white">LIZARD</p>
+        <img
+          src="https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/lagarto.png"
+          class="img-fluid rounded-circle option-img"
+          alt="Lizard"
+        />
+      </div>
 
+      <div id="Spock" class="col-6 col-sm-4 col-md-2 my-3">
+        <p class="text-white">SPOCK</p>
+        <img
+          src="https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/spock.png"
+          class="img-fluid rounded-circle option-img"
+          alt="Spock"
+        />
+      </div>
+    </div>
+
+    <div
+      id="Selecciones"
+      class="d-flex flex-row flex-md-row justify-content-center align-items-center text-center my-4 gap-3"
+    >
+      <div id="Seleccion_Usuario">
+        <img
+          src="https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/spock.png"
+          class="img-fluid rounded-circle select-img"
+          alt="Player"
+        />
+        <h2 class="text-white mt-3">PLAYER</h2>
+      </div>
+
+      <div>
+        <img
+          src="https://cdn-icons-png.freepik.com/256/1191/1191131.png?semt=ais_hybrid"
+          class="img-fluid vs-img"
+          alt="vs"
+        />
+      </div>
+
+      <div id="Seleccion_Pc">
+        <img
+          src="https://rasnerdev.github.io/piedrapapeltijeraslagartospock/img/spock.png"
+          class="img-fluid rounded-circle select-img"
+          alt="CPU"
+        />
+        <h2 class="text-white mt-3">CPU</h2>
+      </div>
+    </div>
+
+    <h1 id="Resultado" class="text-center text-white mb-4">WIN</h1>
+  </div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"
+  ></script>
+  <script type="module" src="/src/app.js"></script>
 </body>
 </html>
